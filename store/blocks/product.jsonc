@@ -16,7 +16,9 @@
   "flex-layout.col#left": {
     "children": [
       "product-images"
-    ]
+    ],
+    "verticalAlign": "middle",
+    "preventVerticalStretch": true
   },
   "flex-layout.col#right": {
     "children": [
