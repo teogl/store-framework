@@ -18,7 +18,7 @@
       "product-images"
     ],
     "verticalAlign": "middle",
-    "preventVerticalStretch": true
+    "preventVerticalStretch": false
   },
   "flex-layout.col#right": {
     "children": [
@@ -27,7 +27,7 @@
       "buy-button"
     ],
     "verticalAlign": "middle",
-    "preventVerticalStretch": true
+    "preventVerticalStretch": false
   },
   "product-images": {
     "props": {
@@ -37,7 +37,7 @@
   "product-price": {
     "props": {
       "showSavings": true,
-      "showListPrice": false
+      "showListPrice": true
     }
   },
   "product-name": {
