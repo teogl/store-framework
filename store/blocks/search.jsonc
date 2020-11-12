@@ -16,28 +16,40 @@
       "flex-layout.row#top",
       "search-fetch-previous",
       "flex-layout.row#results",
-      "search-fetch-more"
+      "search-fetch-more",
+      "flex-layout.column#left",
+      "flex-layout.column#right"
     ]
   },
-  "flex-layout.row#top": {
+  "flex-layout.column#left": {
     "children": [
-      "total-products.v2",
-      "order-by.v2",
       "filter-navigator.v3"
     ],
     "props": {
       "width": "20%"
     }
   },
+  "flex-layout.column#right": {
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2",
+      "filter-navigator.v3"
+    ]
+  },
   "flex-layout.row#results": {
     "children": [
       "flex-layout.col#filter",
       "flex-layout.col#search",
       "search-content"
-    ],
-    "props": {
-      "width": "20%"
-    }
+    ]
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
