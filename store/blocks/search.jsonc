@@ -16,7 +16,21 @@
       "flex-layout.row#top",
       "search-fetch-previous",
       "flex-layout.row#results",
-      "search-fetch-more",
+      "search-fetch-more"
+    ]
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2",
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.row#results": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#search",
+      "search-content",
       "flex-layout.column#left",
       "flex-layout.column#right"
     ]
@@ -36,20 +50,6 @@
     "props": {
       "width": "20%"
     }
-  },
-  "flex-layout.row#top": {
-    "children": [
-      "total-products.v2",
-      "order-by.v2",
-      "filter-navigator.v3"
-    ]
-  },
-  "flex-layout.row#results": {
-    "children": [
-      "flex-layout.col#filter",
-      "flex-layout.col#search",
-      "search-content"
-    ]
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
