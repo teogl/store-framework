@@ -30,12 +30,10 @@
     "children": [
       "flex-layout.col#filter",
       "flex-layout.col#search",
-      "search-content",
-      "flex-layout.column#left",
-      "flex-layout.column#right"
+      "search-content"
     ]
   },
-  "flex-layout.column#left": {
+  "flex-layout.col#filter": {
     "children": [
       "filter-navigator.v3"
     ],
@@ -43,13 +41,10 @@
       "width": "20%"
     }
   },
-  "flex-layout.column#right": {
+  "flex-layout.col#search": {
     "children": [
-      "breadcrumb.search"
-    ],
-    "props": {
-      "width": "20%"
-    }
+      "search-content"
+    ]
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
